@@ -1,7 +1,7 @@
 {
   "name": "react-google-books",
   "version": "1.0.0",
-  "description": "",
+  "description": "Google-Books-Search",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
-  "author": "",
+  "author": "Kristen Austin",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
@@ -23,5 +23,13 @@
     "express": "^4.16.3",
     "if-env": "^1.0.4",
     "mongoose": "^5.3.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knaustin/google-books-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knaustin/google-books-search/issues"
+  },
+  "homepage": "https://github.com/knaustin/google-books-search#readme"
 }
