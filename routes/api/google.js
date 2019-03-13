@@ -3,7 +3,7 @@ const googleController = require("../../controllers/googleController");
 
 router
 .route("/")
-    .get(booksController.findAll);
+    .get(googleController.findAll);
 
 module.exports = router; 
 
